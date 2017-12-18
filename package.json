@@ -1,6 +1,6 @@
 {
   "name": "tesseract.ts",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "TypeScript wrapper for the tesseract.js",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
