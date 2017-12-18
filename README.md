@@ -1,6 +1,6 @@
 # tesseract.ts
 [![NPM version](https://badge.fury.io/js/tesseract.ts.svg)](http://badge.fury.io/js/tesseract.ts)
-[![Dependency Status](https://david-dm.org/urakozz/tesseract.ts.svg)](https://david-dm.org/skratchdot/tesseract.ts)
+[![Dependency Status](https://david-dm.org/urakozz/tesseract.ts.svg)](https://david-dm.org/urakozz/tesseract.ts)
 [![devDependency Status](https://david-dm.org/urakozz/tesseract.ts/dev-status.svg)](https://david-dm.org/urakozz/tesseract.ts#info=devDependencies)
 
 Typescript wrapper for the tesseract.js
