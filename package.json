@@ -1,0 +1,38 @@
+{
+  "name": "tesseract.ts",
+  "version": "1.0.0",
+  "description": "TypeScript wrapper for the tesseract.js",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublishOnly": "rm -rf dist && tsc -p ./ --outDir dist/"
+  },
+  "directories": {
+    "src": "src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/urakozz/tesseract.ts.git"
+  },
+  "keywords": [
+    "typescript",
+    "tesseract.js",
+    "tesseract.ts",
+    "tesseract",
+    "ts"
+  ],
+  "author": "Yury Kozyrev <urakozz@gmail.com> (urakozz.me)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/urakozz/tesseract.ts/issues"
+  },
+  "homepage": "https://github.com/urakozz/tesseract.ts#readme",
+  "dependencies": {
+    "tesseract.js": "^1.0.10"
+  },
+  "devDependencies": {
+    "@types/node": "^8.5.1",
+    "@types/tesseract.js": "0.0.2"
+  }
+}
