@@ -1,6 +1,6 @@
 {
   "name": "tesseract.ts",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "TypeScript wrapper for the tesseract.js",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
@@ -28,11 +28,12 @@
     "url": "https://github.com/urakozz/tesseract.ts/issues"
   },
   "homepage": "https://github.com/urakozz/tesseract.ts#readme",
-  "dependencies": {
-    "tesseract.js": "^1.0.10"
-  },
   "devDependencies": {
     "@types/node": "^8.5.1",
-    "@types/tesseract.js": "0.0.2"
+    "@types/tesseract.js": "0.0.2",
+    "tesseract.js": "^1.0.10"
+  },
+  "peerDependencies": {
+    "tesseract.js": "^1.0.10"
   }
 }
