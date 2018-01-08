@@ -10,7 +10,7 @@ Stupid like potato but truly working wrapper. If you a bit sick of ["Unexpected 
 ## Installation
 
 ```bash
-npm i -S typescript.ts typescript.js
+npm i -S tesseract.ts tesseract.js
 ```
 
 ## Usage
