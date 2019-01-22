@@ -1,2 +1,4 @@
 import * as TesseractTypes from "tesseract.js";
-export const Tesseract: TesseractTypes.TesseractStatic = require("tesseract.js/dist/tesseract");
+declare var window: any;
+const _instance = window ? require("tesseract.js/dist/tesseract") : require('tesseract.js'); 
+export const Tesseract: TesseractTypes.TesseractStatic =  _instance;
