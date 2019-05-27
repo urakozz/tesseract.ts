@@ -1,6 +1,6 @@
 {
   "name": "tesseract.ts",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "TypeScript wrapper for the tesseract.js",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
@@ -32,8 +32,8 @@
     "@types/tesseract.js": "^0.0.2"
   },
   "devDependencies": {
-    "@types/node": "^8.5.1",
-    "tesseract.js": "^1.0.10"
+    "@types/node": "^12.0.0",
+    "tesseract.js": "^1.0.19"
   },
   "peerDependencies": {
     "tesseract.js": "^1.0.10"
