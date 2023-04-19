@@ -33,7 +33,7 @@
   },
   "devDependencies": {
     "@types/node": "^12.6.2",
-    "tesseract.js": "^1.0.19"
+    "tesseract.js": "^4.0.3"
   },
   "peerDependencies": {
     "tesseract.js": "^1.0.10"
